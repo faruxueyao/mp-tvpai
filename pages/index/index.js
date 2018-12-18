@@ -176,6 +176,7 @@ Page({
         }
       })
     } else {
+      console.log('test,22222222222222222')
       app.getUserInfo();
       var userInfo = wx.getStorageSync('userInfo')
       if (typeof (userInfo) == "undefined") {

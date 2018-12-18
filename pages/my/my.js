@@ -490,6 +490,7 @@ Page({
               app.globalData.userInfo = res.userInfo
               wx.setStorageSync('userInfo', app.globalData.userInfo)
               typeof cb == "function" && cb(app.globalData.userInfo)
+              console.log('test,11111111111111111111')
               appJs.login(rawData, code, encryptedData, iv, signature)
               getApp().globalData.onLine = true
               that.setData({

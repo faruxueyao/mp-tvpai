@@ -145,6 +145,7 @@ App({
     })
   },
   getUserInfo: function (cb) {
+    console.log('test,0000000000000000000000000000000000')
     var that = this
     // wx.clearStorageSync(that.globalData.userInfo)
     var ccsession = wx.getStorageSync("cksession")
